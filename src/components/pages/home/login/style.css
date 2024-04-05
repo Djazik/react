@@ -1,0 +1,11 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    width: 50%;
+}
+
+form div {
+    width: 100%;
+}
