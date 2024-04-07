@@ -1,0 +1,124 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.nav__item div {
+    width: 1px;
+    height: 10px;
+    background-color: #DEDFE2;
+}
+
+
+.nav__item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav__item li {
+    color: #7E7E7E;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.nav__item li span {
+    color: #3BB77E;
+}
+
+.nav__item li svg {
+    width: 10.72px;
+    height: 10.64px;
+}
+
+.hero__input {
+    display: flex;
+    gap: 20px;
+}
+
+.hero__location {
+    display: flex;
+}
+
+.hero__line {
+    background-color: #ECECEC;
+    height: 1px;
+}
+
+.browse {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #3BB77E;
+    width: 255.42px;
+    padding: 5px 24px;
+    border-radius: 5px;
+}
+
+.browse svg {
+    color: #fff;
+}
+
+.browse__opt {
+    color: #fff;
+    background-color: #3BB77E;
+    border: none;
+}
+
+.browse__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 44px;
+    color: #fff;
+}
+
+.browse__wrapper {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.browse__box {
+    display: flex;
+    align-items: center;
+}
+
+.browse__ul {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.browse__li {
+    display: flex;
+    gap: 10px;
+}
+
+.browse__icon svg {
+    width: 8px;
+    height: 8px;
+}
+
+.first__icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.browse__contact {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.browse__contact div {
+    display: flex;
+    flex-direction: column;
+}
+
+.browse__contact svg {
+    width: 36px;
+    height: 38px;
+}

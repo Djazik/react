@@ -1,0 +1,36 @@
+.bannerall {
+   padding: 83px 70px 0 70px;
+    border-radius: 20px;
+    margin: 40px 0;
+    background-image: url(../../accents//img/7cf727a1d919b3a2000dc17aa3892559.png);
+}
+
+.bannercollecton {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.banner__cad {
+    display: flex;
+    gap:30px;
+    flex-direction: column;
+}
+
+.banner__titlee {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #253D4E;
+}
+
+.banner__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #7E7E7E;
+}
+
+.banner__text span {
+    color: #3BB77E;
+}

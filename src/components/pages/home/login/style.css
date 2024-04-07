@@ -1,11 +1,75 @@
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 50px;
-    width: 50%;
+.login__border {
+  display: flex;
+  justify-content: center;
 }
 
-form div {
-    width: 100%;
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+  border-radius: 5px;
+  border: 1px solid #e9e9e9;
+  padding: 20px 30px;
+  width: 450px;
+}
+
+.login__inp {
+    border: none;
+    padding: 10px 13px;
+}
+
+.login__title {
+    font-weight: 400;
+    font-size: 15px;
+    lighting-color: 15px;
+    color: #444444;
+    padding-bottom: 9px;
+    padding-top: 29px;
+}
+
+.see__btn {
+    height: 35px;
+    width: 40px;
+    border: none;
+    background-color: #fff;
+}
+
+.inp__border {
+    border: 1px solid #E9E9E9;
+}
+
+.login__btn {
+    background-color: #3BB77E;
+    color: #fff;
+    border-radius: 5px;
+    padding: 11px 21px;
+    border: none;
+    cursor: pointer;
+}
+
+.remeber {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.chackbox__title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #777777;
+}
+
+.checkbox {
+    display: flex;
+    gap: 10px;
+}
+
+.sing {
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+    align-items: center;
 }

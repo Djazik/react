@@ -1,0 +1,58 @@
+
+.every {
+    display: flex;
+    gap: 24px;
+    padding: 70px;
+  }
+  
+  .every__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+  
+  .every__box {
+    padding: 30px;
+    width: 380px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(37, 61, 78, 1);
+    border-radius: 20px;
+    gap: 30px;
+  }
+  
+  .every__box-1 {
+    background-image: url(../../accents//img/banner-1.png.svg);
+  }
+  
+  .every__box-2 {
+    background-image: url(../../accents/img/banner-2.svg)
+  }
+  
+  .every__box-3 {
+    background-image: url(../../accents/img/banner-3.png.svg);
+  }
+  
+  .every__box h2 {
+    font-size: 25px;
+    width: 250px;
+    text-align: start;
+  }
+  
+  .every__btn {
+    background-color: #3BB77E;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+  }

@@ -1,0 +1,36 @@
+.best {
+    display: flex;
+    gap: 24px;
+    margin: 40px 0;
+}
+
+.best__card {
+    display: flex;
+    gap: 20px;
+    background-color: #F4F6FA;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.best__item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.best__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #242424;
+}
+
+.best_itmes {
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #ADADAD;
+}

@@ -3,9 +3,11 @@ import { FaRegEye, FaEyeSlash } from "react-icons/fa";
 import { API_URL } from '../../../static';
 import axios from 'axios';
 import { toast } from 'react-toastify'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate, NavLink } from 'react-router-dom';
 import Navbar from '../../../navbar/Navbar'
 import "./style.css"
+import Footer from '../../../footer/Footer';
+import logo from "../../../../accents/img/logo.svg"
 
 
 function Login() {
@@ -37,22 +39,43 @@ function Login() {
             .finally(()=> setLoading(false))
     }
   return (
-    <div>
+    <div className='container'>
         <Navbar/>
-        <form className='container' onSubmit={handleSubmit}>
-            <input required value={username} onChange={(e) => setUsername(e.target.value)} type="text" />
-           <div className="">
-            <input required value={password} onChange={(e) => setPassword(e.target.value)} type={ShowPassword ? "text" : "password"} />
+    <div className="login__border">
+    <div className="login">
+       <NavLink to={"/"}>
+        <img src={logo} alt="" />
+       </NavLink>
+      <form className='container' onSubmit={handleSubmit}>
+        <h2 className='login__title'>Email Address*</h2>
+           <div className="inp__border">
+            <input className='login__inp' required value={username} onChange={(e) => setUsername(e.target.value)} type="text" />
+            </div>
+        <h2 className="login__title">Password*</h2>
+           <div className="inp__border">
+            <input className='login__inp' required value={password} onChange={(e) => setPassword(e.target.value)} type={ShowPassword ? "text" : "password"} />
            {
                 password && 
-                <button type='button' onClick={()=> setShowPassword(p => !p)} >
+                <button  className='see__btn' type='button' onClick={()=> setShowPassword(p => !p)} >
               {ShowPassword ? <FaEyeSlash/> : <FaRegEye/> }  
                 </button>
             }
            </div>
-            <button disabled={loading}>{loading ? "Loading..." : "Login"}</button>
-           
+           <div className="remeber">
+            <div className="checkbox">
+              <input type="checkbox" />
+              <h2 className='chackbox__title'>Remember Me</h2>
+            </div>
+            <h2 className='chackbox__title'>Forgot Password?</h2>
+           </div>
+          <div className="sing">
+        <button className='login__btn' disabled={loading}>{loading ? "Loading..." : "Login"}</button>
+  <h2 className='chackbox__title'>Signup? </h2>
+  </div>           
         </form>
+      </div>
+    </div>
+        <Footer/>
     </div>
   )
 }

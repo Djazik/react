@@ -1,0 +1,51 @@
+.banner {
+  background-image: url(../../accents/img/7cf727a1d919b3a2000dc17aa3892559.png);
+  object-fit: cover;
+  background-position: cover;
+  margin: 30px 0;
+  padding: 90px;
+  border-radius: 30px;
+
+}
+
+.banner__title {
+padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+  color: #253d4e;
+}
+
+.banner__input {
+  /* padding: 22px; */
+  background-color: #fff;
+  width: 370px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 15px;
+}
+
+.banner__input input {
+  border: none;
+}
+
+.banner__input button {
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+  color: #fff;
+  background-color: #3bb77e;
+  border-radius: 50px;
+  padding: 20px 40px;
+}
+
+.banner h4 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 24px;
+  color: #7E7E7E;
+  padding-bottom: 60px;
+}
