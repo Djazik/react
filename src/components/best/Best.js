@@ -1,7 +1,6 @@
 import React from "react";
 import "./best.css";
 import { BEST } from "../../components/static/index";
-import ras from "../../accents/img/footer-1.svg";
 function Best() {
   return (
     <div className="container">

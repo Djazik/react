@@ -3,7 +3,7 @@ import { FaRegEye, FaEyeSlash } from "react-icons/fa";
 import { API_URL } from '../../../static';
 import axios from 'axios';
 import { toast } from 'react-toastify'
-import { Link, useNavigate, NavLink } from 'react-router-dom';
+import {  useNavigate, NavLink } from 'react-router-dom';
 import Navbar from '../../../navbar/Navbar'
 import "./style.css"
 import Footer from '../../../footer/Footer';
